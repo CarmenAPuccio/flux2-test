@@ -13,5 +13,6 @@ spec:
   sourceRef:
     kind: GitRepository
     name: httpbin
-  validation: 10m
+  timeout: 2m0s
+  validation: client
 
